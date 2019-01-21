@@ -18,7 +18,7 @@ fruits.forEach((fruit, index) => {
 
 // MAP
 // works like foreach but it returns an array and you can change each item in the array
-// we use map in React to loop thru 'lists'
+// we use map in React to loop thru 'list items' (in JSX)
 
 const singleFruit = fruits.map(fruit => fruit.slice(0, -1));
 
